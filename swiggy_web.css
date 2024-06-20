@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.main_nav{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main_menu{
+   position: fixed; 
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   z-index: 1200;
+   box-shadow: 0px 0px 10px gray;
+}
+
+
+/* navbar complete */
+
+.home_bg_img{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-image: url(banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hover:hover h4{
+    color: orange;
+}
+
+
+.background_color{
+    background-color: rgb(148,73,156);
+    height: 500px;
+    width: 105%;
+    float: left;
+}
+
+.btn_hover{
+    height: 130px;
+    width: 100%;
+}
+
+.btn_hover:hover{
+    background-color: orange;
+    height: 130px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Button{
+    height: 60px;
+    width: 250px;
+    border-radius: 100px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: 2px solid orange;
+}
+/* ==================================== */
+
+.banner{
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-image: url(home_banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.last_menu{
+    background-color: rgb(148,73,156);
+    height: 280px;
+    width: 105%;
+    float: left;
+}
+
+
+@media(max-width:667px){
+    .last_menu{
+        background-color: rgb(148,73,156);
+        height: 460px;
+        width: 115%;
+        float: left;
+    }
+    .home_bg_img{
+        height: 450px;
+        width: 100%;
+        float: left;
+        background-image: url(banner3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .last_ul{
+        margin-left: -100px;
+    }
+    .last_icon{
+        margin-left: -100px;
+        margin-top: 50px;
+    }
+}
+
+.opportunities_bg_img{
+    height: 600px;
+    width: 100%;
+    background-image: url(careers_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Hire{
+    background-color: rgb(237,237,237);
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+
+.Hire_2{
+    background-color: rgb(237,237,237);
+    height: 400px;
+    width: 105%;
+    float: left;
+}
+
+@media(max-width:667px){
+    .Hire_2{
+        background-color: rgb(237,237,237);
+        height: 1550px;
+        width: 105%;
+        float: left;
+    }
+    .hire_img_1{
+        margin-top: 100px;
+    }
+    .opportunities_bg_img{
+        height: 400px;
+        width: 100%;
+        background-image: url(careers_banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .background_color{
+        background-color: rgb(148,73,156);
+        height: 1200px;
+        width: 115%;
+        float: left;
+    }
+    .banner{
+        height: 700px;
+        width: 100%;
+        float: left;
+        background-image: url(home_banner2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* ================================= */
+
+.About_bg{
+    height: 450px;
+    width: 100%;
+    float: left;
+    background-color: rgb(245,133,31);
+}
+
+.box_1{
+    height: 150px;
+    width: 100%;
+    float: left;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+.about_col_bg_1{
+    height: 504px;
+    width: 100%;
+    float: left;
+    background-color: rgb(148,73,156);
+    color: white;
+}
+.about_col_bg_1 h2{
+    margin-top: 100px;
+}
+
+.about_col_2{
+    height: 504px;
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: rgb(245,133,31);
+    margin-top: -1px;
+}
+
+.about_col_2 h2{
+    margin-top: 100px;
+}
+
+.about_col_bg_3{
+    height: 550px;
+    width: 100%;
+    float: left;
+    background-color: rgb(148,73,156);
+    color: white;
+    margin-top: -2px;
+}
+
+.about_col_bg_3 h2{
+    margin-top: 140px;
+}
+
+@media(max-width:667px){
+    .about_col_bg_1{
+        height: 600px;
+        width: 100%;
+        float: left;
+        background-color: rgb(148,73,156);
+        color: white;
+    }
+    .about_col_bg_1 h2{
+        margin-top: 50px;
+    }
+    
+    .about_col_2{
+        height: 600px;
+        width: 100%;
+        float: left;
+        color: white;
+        background-color: rgb(245,133,31);
+    }
+    
+    .about_col_2 h2{
+        margin-top: 100px;
+    }
+    
+    .about_col_bg_3{
+        height: 650px;
+        width: 100%;
+        float: left;
+        background-color: rgb(148,73,156);
+        color: white;
+    }
+    
+    .about_col_bg_3 h2{
+        margin-top: 100px;
+    }
+    .About_bg{
+        height: 580px;
+        width: 100%;
+        float: left;
+        background-color: rgb(245,133,31);
+    }
+     
+}
+
+/* ==================== */
+
+.life_bg_img{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(swiggy_lifebanner.jpg);
+    margin-top: 60px;
+}
+
+
+.life_bg{
+    height: 600px;
+    width: 110%;
+    float: left;
+    background-color: rgb(248,249,250);
+}
+
+.life_banner{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(life_banner4.jpg);
+}
+@media(max-width:667px){
+    .life_bg_img{
+        height: 350px;
+        width: 100%;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(swiggy_lifebanner.jpg);
+    }
+
+    .life_bg{
+        height: 600px;
+        width: 110%;
+        float: left;
+        background-color: rgb(248,249,250);
+        margin-top: -40px;
+    }
+    .life_bg h5{
+        margin-top: 100px;
+    }
+    .life_bg h1{
+        margin-top: 100px;
+    }
+    .life_banner{
+        height: 300px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(life_banner4.jpg);
+    }
+}
+
+/* ====================================== */
+
+
+.values_bg{
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-color: rgb(239,239,239);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.values_bg_2{
+    height: 550px;
+    width: 100%;
+    float: left;
+    background-color: rgb(239,239,239);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.values_bg_3{
+    height: 547px;
+    width: 100%;
+    float: left;
+    background-color: rgb(148,73,156);
+}
+
+@media(max-width:667px){
+    .values_bg_3{
+        height: 547px;
+        width: 100%;
+        float: left;
+        background-color: rgb(148,73,156);
+    }
+
+    .value{
+        margin-top: 770px;
+    } 
+
+    .value_2{
+        margin-top: 200px;
+    } 
+
+    .values_bg{
+        background-color: white
+    }
+    
+    .values_bg_2{
+        background-color: white
+    }
+}
+
+/* =========================================== */
